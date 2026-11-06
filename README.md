@@ -35,8 +35,8 @@ HTML, CSS, and  JavaScript.
 
 ## AI tools used
 
-- Codex for the first draft.
+- Codex for implementation.
 - Claude for review.
-- [what I changed myself]
+
 
 
