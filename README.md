@@ -4,7 +4,7 @@ Wanderly is a modern, responsive travel and tourism homepage designed for a fict
 
 ## Live site
 
-[add Vercel URL]
+https://wanderlytravel.vercel.app/
 
 ## Tech
 
