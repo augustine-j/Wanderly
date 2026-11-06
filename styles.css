@@ -74,13 +74,19 @@ input {
 
 /* Header */
 .site-header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
   width: 100%;
   background: transparent;
   color: #fff;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.site-header.is-scrolled {
+  background: rgba(12, 56, 52, 0.96);
+  box-shadow: 0 4px 16px rgba(7, 35, 32, 0.18);
 }
 
 .nav-wrap {

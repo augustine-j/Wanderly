@@ -2,8 +2,17 @@ const menuButton = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.primary-nav');
 const navLinks = document.querySelectorAll('.primary-nav a');
 const homeLinks = document.querySelectorAll('a[href="#home"]');
+const header = document.querySelector('.site-header');
 const tripForm = document.querySelector('#trip-form');
 const formFeedback = document.querySelector('#form-feedback');
+
+// Add a background to the fixed header after the page starts scrolling.
+function updateHeaderStyle() {
+  header.classList.toggle('is-scrolled', window.scrollY > 12);
+}
+
+window.addEventListener('scroll', updateHeaderStyle);
+updateHeaderStyle();
 
 // Toggle the mobile navigation menu.
 menuButton.addEventListener('click', () => {
